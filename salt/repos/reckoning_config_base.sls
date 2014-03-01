@@ -20,6 +20,8 @@ prod_no_reckoning_config_initdeploy:
     - recurse:
       - user
       - group
+    - require:
+      - pkg: git
 
 # Check out reckoning code from github.
 
