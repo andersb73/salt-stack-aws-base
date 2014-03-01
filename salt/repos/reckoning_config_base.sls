@@ -28,5 +28,5 @@ spid-operations@50.57.45.61:/srv/config.prod.spid.no.git:
 #    - rev: {{ pillar["prod_no_reckoning_github_revision"] }}
     - user: spid-operations
     - target: {{pillar['prod_no_reckoning_config_base']}}
-    - identity: /home/spid-operations/.ssh/spid_git_repo_key
+    - identity: /home/spid-operations/.ssh/svn_checkin_key_priv.rsa
     
