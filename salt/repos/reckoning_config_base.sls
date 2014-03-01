@@ -20,8 +20,6 @@ prod_no_reckoning_config_initdeploy:
     - recurse:
       - user
       - group
-    - require:
-      - user: spid-operations
 
 # Check out reckoning code from github.
 
